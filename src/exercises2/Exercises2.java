@@ -57,6 +57,41 @@ public class Exercises2 {
                     SeriesOfNumbers program5 = new SeriesOfNumbers();
                     program5.giveNumbers();
                     break;
+                case 6:
+                    System.out.println("\n" +
+                            "Game 'to much to little' \n" +
+                            "");
+                    Game program6 = new Game();
+                    program6.game();
+                    break;
+                case 7:
+                    System.out.println("\n" +
+                            "Draw square \n" +
+                            "");
+                    Rectangle program7 = new Rectangle();
+                    program7.drawRectangle();
+                    break;
+                case 8:
+                    System.out.println("\n" +
+                            "Draw christmas tree \n" +
+                            "");
+                    ChristmasTree program8 = new ChristmasTree();
+                    program8.drawChristmasTree();
+                    break;
+                case 9:
+                    System.out.println("\n" +
+                            "Numbers \n" +
+                            "");
+                    Numbers program9 = new Numbers();
+                    program9.numbers();
+                    break;
+                case 10:
+                    System.out.println("\n" +
+                            "Factor printer \n" +
+                            "");
+                    FactorPrinter program10 = new FactorPrinter();
+                    program10.printFactors();
+                    break;
                 case -1:
                     System.out.println("Quit program");
                     trueFalse = false;
@@ -72,6 +107,11 @@ public class Exercises2 {
                 "3 - Exponentiation \n" +
                 "4 - Give zero \n" +
                 "5 - Series of numbers \n" +
-                "-1 - Quit program");
+                "6 - Game 'to much to little' \n" +
+                "7 - Draw rectangle \n" +
+                "8 - Draw christmas tree (nie ukonczone) \n" +
+                "9 - Numbers \n" +
+                "10 - Factor printer \n" +
+                "100 - Quit program");
     }
 }

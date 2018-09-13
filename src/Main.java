@@ -47,6 +47,6 @@ public class Main {
         System.out.println("0 - Menu \n" +
                 "1 - exercises 1 \n" +
                 "2 - exercises 2 \n" +
-                "-1 - Quit program");
+                "100 - Quit program");
     }
 }
