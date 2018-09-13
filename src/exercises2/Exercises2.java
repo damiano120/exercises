@@ -43,6 +43,20 @@ public class Exercises2 {
                     Exponentiation program3 = new Exponentiation();
                     program3.exponentiation();
                     break;
+                case 4:
+                    System.out.println("\n" +
+                            "Give zero \n" +
+                            "");
+                    GiveZero program4 = new GiveZero();
+                    program4.giveZero();
+                    break;
+                case 5:
+                    System.out.println("\n" +
+                            "Series of numbers \n" +
+                            "");
+                    SeriesOfNumbers program5 = new SeriesOfNumbers();
+                    program5.giveNumbers();
+                    break;
                 case -1:
                     System.out.println("Quit program");
                     trueFalse = false;
@@ -56,6 +70,8 @@ public class Exercises2 {
                 "1 - Show odd numbers \n" +
                 "2 - Sum of the sequence of numbers \n" +
                 "3 - Exponentiation \n" +
+                "4 - Give zero \n" +
+                "5 - Series of numbers \n" +
                 "-1 - Quit program");
     }
 }
