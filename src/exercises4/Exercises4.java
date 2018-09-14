@@ -1,14 +1,12 @@
-import exercises1.Exercises1;
-import exercises2.Exercises2;
-import exercises3.Exercises3;
-import exercises4.Exercises4;
+package exercises4;
 
 import java.util.Scanner;
 
-public class Main {
+public class Exercises4 {
 
-    public static void main(String[] args) {
+//    Zajęcia 4 – łańcuchy znaków (String)
 
+    public void exercises4(){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Wybierz program");
@@ -25,31 +23,24 @@ public class Main {
                     break;
                 case 1:
                     System.out.println("\n" +
-                            "Exercises 1 \n" +
+                            "String exercise \n" +
                             "");
-                    Exercises1 exercises1 = new Exercises1();
-                    exercises1.exercises1();
+                    StringExercise program1 = new StringExercise();
+                    program1.exerciseString();
                     break;
                 case 2:
                     System.out.println("\n" +
-                            "Exercises 2 \n" +
+                            "String exercise 2 \n" +
                             "");
-                    Exercises2 exercises2 = new Exercises2();
-                    exercises2.exercises2();
+                    StringExercise2 program2 = new StringExercise2();
+                    program2.exerciseString();
                     break;
                 case 3:
                     System.out.println("\n" +
-                            "Exercises 3 \n" +
+                            "Palindrome \n" +
                             "");
-                    Exercises3 exercises3 = new Exercises3();
-                    exercises3.exercises3();
-                    break;
-                case 4:
-                    System.out.println("\n" +
-                            "Exercises 4 \n" +
-                            "");
-                    Exercises4 exercises4 = new Exercises4();
-                    exercises4.exercises4();
+                    Palindrome program3 = new Palindrome();
+                    program3.palindrome();
                     break;
                 case 100:
                     System.out.println("Quit program");
@@ -61,10 +52,9 @@ public class Main {
 
     private static void printMenu() {
         System.out.println("0 - Menu \n" +
-                "1 - exercises 1 \n" +
-                "2 - exercises 2 \n" +
-                "3 - exercises 3 \n" +
-                "4 - exercises 4 \n" +
+                "1 - String exercise \n" +
+                "2 - String exercise 2 \n" +
+                "3 - Palindrome \n" +
                 "100 - Quit program");
     }
 }

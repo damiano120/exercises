@@ -92,7 +92,7 @@ public class Exercises2 {
                     FactorPrinter program10 = new FactorPrinter();
                     program10.printFactors();
                     break;
-                case -1:
+                case 100:
                     System.out.println("Quit program");
                     trueFalse = false;
                     break;
