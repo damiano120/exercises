@@ -13,9 +13,7 @@ public class OddNumbers {
         Scanner scanner = new Scanner(System.in);
 
         int number;
-        boolean trueFalse = true;
 
-        while (trueFalse) {
             System.out.print("Wpisz liczbe calkowita: ");
             number = scanner.nextInt();
             System.out.print("Liczby nieparzyste to:");
@@ -26,6 +24,5 @@ public class OddNumbers {
             }
             System.out.println();
             System.out.println();
-        }
     }
 }

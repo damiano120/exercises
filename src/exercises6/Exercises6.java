@@ -1,12 +1,13 @@
-package exercises3;
+package exercises6;
 
+import java.io.IOException;
 import java.util.Scanner;
 
-public class Exercises3 {
+public class Exercises6 {
 
-//    Zajęcia 3 – tablice
+//    Zajęcia 6 – pliki tekstowe
 
-    public void exercises3(){
+    public void exercises6()throws IOException {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -23,17 +24,24 @@ public class Exercises3 {
                     return;
                 case 1:
                     System.out.println("\n" +
-                            "Create table 1 \n" +
+                            "Count the charaters \n" +
                             "");
-                    CreateTable program1 = new CreateTable();
-                    program1.createTable();
+                    CountTheCharacters program1 = new CountTheCharacters();
+                    program1.countTheCharacters();
                     break;
                 case 2:
                     System.out.println("\n" +
-                            "Table exercise \n" +
+                            "Find \n" +
                             "");
-                    TableExercise program2 = new TableExercise();
-                    program2.exerciseTable();
+                    Find program2 = new Find();
+                    program2.find();
+                    break;
+                case 3:
+                    System.out.println("\n" +
+                            "Sum and save \n" +
+                            "");
+                    SumAndSave program3 = new SumAndSave();
+                    program3.sum();
                     break;
                 case 100:
                     System.out.println("Close program");
@@ -45,8 +53,9 @@ public class Exercises3 {
 
     private static void printMenu() {
         System.out.println("0 - Back to previus Menu \n" +
-                "1 - Create table \n" +
-                "2 - Table exercise \n" +
+                "1 - Count the characters - nie ukonczony \n" +
+                "2 - Find \n" +
+                "3 - Sum and save \n" +
                 "100 - Close program");
     }
 }

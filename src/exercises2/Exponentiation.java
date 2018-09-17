@@ -16,14 +16,12 @@ public class Exponentiation {
 
         int number;
         ArrayList<Integer> list = new ArrayList<Integer>();
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.println("Podaj liczbe calkowita dodatnia");
             number = scanner.nextInt();
             if (number<1){
                 System.out.println("Liczba musi byc calkowita dodatnia");
-                continue;
+                return;
             }
             int temp = 0;
             while (Math.pow(2, temp) <= number){
@@ -34,6 +32,5 @@ public class Exponentiation {
             }
             System.out.println("Wszystkie potegi liczby " + number + " to: " + list.toString());
             System.out.println();
-        }
     }
 }

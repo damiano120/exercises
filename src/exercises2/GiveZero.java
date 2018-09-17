@@ -16,9 +16,7 @@ public class GiveZero {
         double numbers = 0;
         double sum = 0;
         String temporary;
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.println("Program sumuje podawane liczby dopoki wystapi 0");
 
             do {
@@ -35,6 +33,5 @@ public class GiveZero {
             System.out.println();
             System.out.println("Suma podanych liczb to: "+sum);
             System.out.println();
-        }
     }
 }

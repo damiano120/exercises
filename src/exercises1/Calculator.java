@@ -25,9 +25,7 @@ public class Calculator {
         String symbolScan;
         char symbol;
         double result;
-        boolean trueFalse = true;
 
-        while (trueFalse) {
             System.out.println("Wprowadz liczby");
             System.out.println("Pierwsza liczba: ");
             value1 = scanner.nextDouble();
@@ -36,7 +34,7 @@ public class Calculator {
             symbol = symbolScan.charAt(0);
             if (symbol != '+' && symbol != '-' && symbol != '*' && symbol != '/'){
                 System.out.println("Nieprawidłowy znak dzialania. Podaj symbol operacji +, -, *, / ");
-                continue;
+                return;
             }
             System.out.println("Druga liczba: ");
             value2 = scanner.nextDouble();
@@ -52,12 +50,11 @@ public class Calculator {
             } else{
                 if (value2 == 0){
                     System.out.println("Nie mozna dzielic przez 0");
-                    continue;
+                    return;
                 }
                 result = value1/value2;
                 System.out.println("Wynik dzialania "+ value1 +" / "+ value2 +" = "+ result);
             }
             System.out.println();
-        }
     }
 }

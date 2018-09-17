@@ -13,11 +13,9 @@ public class ConverterCelsiusToFahrenheit {
 
         double degreesCelsius;
         double degreesFahrenheit;
-        boolean trueFalse = true;
 
         Scanner scanner = new Scanner(System.in);
 
-        while (trueFalse) {
             System.out.print("Wpisz wartość w stopniach Celcjusza: ");
             degreesCelsius = scanner.nextDouble();
             degreesFahrenheit = ((degreesCelsius * 1.8)+32);
@@ -25,6 +23,5 @@ public class ConverterCelsiusToFahrenheit {
             System.out.format("%.2f",degreesFahrenheit);
             System.out.println(" stopni Fahrenheita.");
             System.out.println();
-        }
     }
 }

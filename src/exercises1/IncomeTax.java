@@ -16,14 +16,12 @@ public class IncomeTax {
 
         double income;
         double tax = 0;
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.print("Podaj dochod: ");
             income = scanner.nextDouble();
             if (income<0){
                 System.out.println("Income must be positive");
-                continue;
+                return;
             } else if (income>=0 && income<85528){
                 tax = (income*0.18)+556.02;
             } else {
@@ -33,6 +31,5 @@ public class IncomeTax {
             System.out.format("%.2f",tax);
             System.out.println("PLN");
             System.out.println();
-        }
     }
 }

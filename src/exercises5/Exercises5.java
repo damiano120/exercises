@@ -1,12 +1,10 @@
-package exercises3;
+package exercises5;
 
 import java.util.Scanner;
 
-public class Exercises3 {
+public class Exercises5 {
 
-//    Zajęcia 3 – tablice
-
-    public void exercises3(){
+    public void exercises5(){
 
         Scanner scanner = new Scanner(System.in);
 
@@ -23,17 +21,9 @@ public class Exercises3 {
                     return;
                 case 1:
                     System.out.println("\n" +
-                            "Create table 1 \n" +
+                            " \n" +
                             "");
-                    CreateTable program1 = new CreateTable();
-                    program1.createTable();
-                    break;
-                case 2:
-                    System.out.println("\n" +
-                            "Table exercise \n" +
-                            "");
-                    TableExercise program2 = new TableExercise();
-                    program2.exerciseTable();
+
                     break;
                 case 100:
                     System.out.println("Close program");
@@ -45,8 +35,7 @@ public class Exercises3 {
 
     private static void printMenu() {
         System.out.println("0 - Back to previus Menu \n" +
-                "1 - Create table \n" +
-                "2 - Table exercise \n" +
+                "1 -  \n" +
                 "100 - Close program");
     }
 }

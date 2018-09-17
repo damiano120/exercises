@@ -24,7 +24,6 @@ public class Game {
         System.out.println("Odgadnij liczbe z zakresu od 1 do 100");
         temporaryRandomNumber = Math.random() * 100;
         randomNumber = (int) temporaryRandomNumber;
-
         while (trueFalse) {
             System.out.print("Twoja liczba: ");
 
@@ -40,7 +39,7 @@ public class Game {
             if (userNumber > randomNumber) {
                 System.out.println("Podales za duza wartosc. Probuj dalej...");
                 continue;
-            } else if (userNumber < randomNumber){
+            } else if (userNumber < randomNumber) {
                 System.out.println("Podales za mala wartosc. Probuj dalej...");
                 continue;
             } else {

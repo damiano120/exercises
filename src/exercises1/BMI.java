@@ -16,9 +16,7 @@ public class BMI {
         double weight;
         double height;
         double bmi;
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.print("Podaj swoją wagę: ");
             weight = scanner.nextDouble();
             System.out.print("Podaj swój wzrost: ");
@@ -36,7 +34,5 @@ public class BMI {
                 System.out.println("Masz nadwage");
             }
             System.out.println();
-        }
-
     }
 }

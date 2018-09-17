@@ -24,20 +24,18 @@ public class ShoppingInInstallments {
         double price;
         int numberInstallments;
         double installment;
-        boolean trueFalse = true;
 
-        while (trueFalse) {
             System.out.print("Podaj cene towaru z zakresu od 100zl do 10 tys.zl: ");
             price = scanner.nextDouble();
             if (price < 100 || price > 10000) {
                 System.out.println("Nieprawidłowa kwota. Podaj kwotę z zakresu od 100zl do 10 tys.zl");
-                continue;
+                return;
             }
             System.out.print("Podaj ilosc rat od 6 do 48: ");
             numberInstallments = scanner.nextInt();
             if (numberInstallments<6 || numberInstallments>48){
                 System.out.println("Nieprawidlowa ilosc rat. Podaj ilosc rat z zakresu od 6 do 48");
-                continue;
+                return;
             }
             if (numberInstallments>=6 && numberInstallments<=12){
                 installment = (price/numberInstallments)+((price*0.025)/numberInstallments);
@@ -49,6 +47,5 @@ public class ShoppingInInstallments {
             System.out.print("Rata wyniesie ");
             System.out.format("%.2f%n",installment);
             System.out.println();
-        }
     }
 }

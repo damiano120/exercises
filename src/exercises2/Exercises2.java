@@ -10,18 +10,17 @@ public class Exercises2 {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Wybierz program");
-        printMenu();
-        System.out.print("Twoj wybor to: ");
-
         boolean trueFalse = true;
 
         while (trueFalse){
+            System.out.println();
+            System.out.println("Wybierz program z listy");
+            printMenu();
+            System.out.print("Twoj wybor to: ");
             switch (scanner.nextInt()) {
                 case 0:
-                    System.out.println("Menu");
-                    printMenu();
-                    break;
+                    System.out.println("Back to previus Menu");
+                    return;
                 case 1:
                     System.out.println("\n" +
                             "Odd numbers \n" +
@@ -93,7 +92,7 @@ public class Exercises2 {
                     program10.printFactors();
                     break;
                 case 100:
-                    System.out.println("Quit program");
+                    System.out.println("Close program");
                     trueFalse = false;
                     break;
             }
@@ -101,7 +100,7 @@ public class Exercises2 {
     }
 
     private static void printMenu() {
-        System.out.println("0 - Menu \n" +
+        System.out.println("0 - Back to previus Menu \n" +
                 "1 - Show odd numbers \n" +
                 "2 - Sum of the sequence of numbers \n" +
                 "3 - Exponentiation \n" +
@@ -112,6 +111,6 @@ public class Exercises2 {
                 "8 - Draw christmas tree (nie ukonczone) \n" +
                 "9 - Numbers \n" +
                 "10 - Factor printer \n" +
-                "100 - Quit program");
+                "100 - Close program");
     }
 }

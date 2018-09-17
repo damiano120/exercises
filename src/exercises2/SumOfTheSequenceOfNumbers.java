@@ -22,9 +22,7 @@ public class SumOfTheSequenceOfNumbers {
         int value2;
         int sum;
         int temp;
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.println("Podaj liczby");
             System.out.print("Pierwsza liczba: ");
             value1 = scanner.nextInt();
@@ -32,7 +30,7 @@ public class SumOfTheSequenceOfNumbers {
             value2 = scanner.nextInt();
             if (value2 < value1){
                 System.out.println("Druga liczba musi byc wieksza od pierwszej");
-                continue;
+                return;
             }
 
             //            PETLA WHILE
@@ -59,6 +57,5 @@ public class SumOfTheSequenceOfNumbers {
                 sum += temp;
             }
             System.out.println("Suma ciagu liczb to: " + sum);
-        }
     }
 }

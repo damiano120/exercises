@@ -24,9 +24,7 @@ public class SeriesOfNumbers {
         String numbers;
         int number = 0;
         ArrayList<Integer> list = new ArrayList<>();
-        boolean trueFalse = true;
 
-        while (trueFalse){
             System.out.println("Podaj ciag liczb i zatwierdz liczba zero");
             System.out.print("Liczby: ");
             numbers = scanner.nextLine();
@@ -62,6 +60,5 @@ public class SeriesOfNumbers {
             System.out.println("Suma najwiekszej i najmniejszej liczby z podanego ciagu to: " + sum);
             System.out.println("Srednia najwiekszej i najmniejszej liczby z podanego ciagu to: " +average);
             System.out.println();
-        }
     }
 }

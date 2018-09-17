@@ -14,9 +14,7 @@ public class TheHighestAndLowestValue {
         int value1;
         int value2;
         int value3;
-        boolean trueFalse = true;
 
-        while (trueFalse) {
             System.out.println("Podaj 3 liczby calkowite ");
             System.out.print("Liczba pierwsza: ");
             value1 = scanner.nextInt();
@@ -34,7 +32,5 @@ public class TheHighestAndLowestValue {
             System.out.println("Najwieksza z podanych liczb to: " + max);
             System.out.println("Najmniejsza z podanych liczb to: " + min);
             System.out.println();
-
-        }
     }
 }
