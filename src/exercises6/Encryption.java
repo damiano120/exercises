@@ -42,24 +42,25 @@ postać powinna mieć nazwę _dane.txt. Funkcja deszyfruj powinna deszyfrować p
             temporary1 = scanner.nextLine();
             try {
                 keyEncryption = Integer.parseInt(temporary1);
+                encrypt(inFileNameEncrypt, keyEncryption);
             } catch (Exception exc) {
                 System.out.println("Błędne dane szyfrujace. Podaj liczbe. ");
             }
-            encrypt(inFileNameEncrypt, keyEncryption);
         } else if (choice.equals("2")){
             System.out.print("Wprowadz deszyfrowanie (powrotne przesuniecie o ilosc): ");
             temporary2 = scanner.nextLine();
             try {
                 keyDecryption = Integer.parseInt(temporary2);
+                decrypt(inFileNameDecrypt, keyDecryption);
             } catch (Exception exc) {
                 System.out.println("Błędne dane deszyfrujace. Podaj liczbe. ");
             }
-            decrypt(inFileNameDecrypt, keyDecryption);
         } else {
             System.out.println("Bledny wybor");
         }
     }
 
+//    SZYFRUJ PLIK
     public void encrypt(String inFileName, int key) throws IOException {
 
         Path pathIn = Paths.get(inFileName);
@@ -92,6 +93,7 @@ postać powinna mieć nazwę _dane.txt. Funkcja deszyfruj powinna deszyfrować p
         }
     }
 
+//    DESZYFRUJ PLIK
     public void decrypt(String outFileName, int key) throws IOException {
         Path pathIn = Paths.get(outFileName);
         Path pathOut = Paths.get("src\\exercises6\\program4DecryptOut.txt");

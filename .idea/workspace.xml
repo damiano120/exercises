@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2874f2-7b58-4fef-907c-bd42081796c4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exercises6/Encryption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises6/program4DecryptIn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exercises6/program4EncryptIn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises6/Pension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exercises6/program5Pension.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/BMI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/BMI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/ConverterCelsiusToFahrenheit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/ConverterCelsiusToFahrenheit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/Exercises1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/Exercises1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/IncomeTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/IncomeTax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/ShoppingInInstallments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/ShoppingInInstallments.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises1/TheHighestAndLowestValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises1/TheHighestAndLowestValue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/ChristmasTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/ChristmasTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/Exercises2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/Exercises2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/Exponentiation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/Exponentiation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/FactorPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/FactorPrinter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/GiveZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/GiveZero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/Numbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/Numbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/OddNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/OddNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/SeriesOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/SeriesOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises2/SumOfTheSequenceOfNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises2/SumOfTheSequenceOfNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises3/CreateTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises3/CreateTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises3/Exercises3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises3/Exercises3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises3/TableExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises3/TableExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/CheckingTheBrackets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/CheckingTheBrackets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/Exercises4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/Exercises4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/StringExercise4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises4/TextEncryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises4/TextEncryption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises5/Exercises5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises5/Exercises5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/CountTheCharacters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/CountTheCharacters.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/Encryption.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/Encryption.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/Exercises6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/Exercises6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/Find.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/Find.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/SumAndSave.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/SumAndSave.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercises/exercises6/program3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercises/exercises6/program3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises6/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises6/Encryption.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises6/Exercises6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises6/Exercises6.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,36 +21,36 @@
     <session id="2051844903">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="3" />
-          <entry key="txt" value="5" />
+          <entry key="java" value="8" />
+          <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="3" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="8" />
+          <entry key="PLAIN_TEXT" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1258" />
+          <entry key="java" value="2481" />
           <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1258" />
+          <entry key="JAVA" value="2481" />
           <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
@@ -92,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercises6/Exercises6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="840">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exercises6/CountTheCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-401">
+            <state relative-caret-position="765">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -186,10 +152,12 @@
         <option value="$PROJECT_DIR$/src/exercises6/Find.java" />
         <option value="$PROJECT_DIR$/program3.txt" />
         <option value="$PROJECT_DIR$/src/exercises6/SumAndSave.java" />
-        <option value="$PROJECT_DIR$/src/exercises6/Exercises6.java" />
         <option value="$PROJECT_DIR$/src/exercises6/program4EncryptionIn.txt" />
         <option value="$PROJECT_DIR$/src/exercises6/program4DecryptIn.txt" />
+        <option value="$PROJECT_DIR$/src/exercises6/Exercises6.java" />
+        <option value="$PROJECT_DIR$/src/exercises6/program5Pension.txt" />
         <option value="$PROJECT_DIR$/src/exercises6/Encryption.java" />
+        <option value="$PROJECT_DIR$/src/exercises6/Pension.java" />
       </list>
     </option>
   </component>
@@ -205,6 +173,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,12 +197,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537256532719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537258044088" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -298,11 +266,20 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.1716418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.17643923" />
       <window_info id="Structure" order="1" sideWeight="0.5006878" side_tool="true" weight="0.17697228" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,10 +292,10 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.2559653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -329,6 +306,32 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -534,16 +537,6 @@
     <entry file="file://$PROJECT_DIR$/program3.txt" />
     <entry file="file://$PROJECT_DIR$/src/exercises6/SumAndSave.java" />
     <entry file="file://$PROJECT_DIR$/src/exercises6/Find.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercises6/CountTheCharacters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises4/TextEncryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -580,8 +573,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises6/Encryption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="13" lean-forward="true" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="13" />
+        <state relative-caret-position="884">
+          <caret line="52" column="61" lean-forward="true" selection-start-line="52" selection-start-column="61" selection-end-line="52" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises6/program5Pension.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises6/program5PensionWomen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises6/program5PensionMen.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises6/Pension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises6/CountTheCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -590,18 +631,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises6/Exercises6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="840">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

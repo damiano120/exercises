@@ -50,6 +50,13 @@ public class Exercises6 {
                     Encryption program4 = new Encryption();
                     program4.encryption();
                     break;
+                case 5:
+                    System.out.println("\n" +
+                            "Pension \n" +
+                            "");
+                    Pension program5 = new Pension();
+                    program5.pension();
+                    break;
                 case 100:
                     System.out.println("Close program");
                     trueFalse = false;
@@ -64,6 +71,7 @@ public class Exercises6 {
                 "2 - Find \n" +
                 "3 - Sum and save \n" +
                 "4 - Encryption \n" +
+                "5 - Pension \n" +
                 "100 - Close program");
     }
 }
