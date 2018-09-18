@@ -43,6 +43,13 @@ public class Exercises6 {
                     SumAndSave program3 = new SumAndSave();
                     program3.sum();
                     break;
+                case 4:
+                    System.out.println("\n" +
+                            "Encryption \n" +
+                            "");
+                    Encryption program4 = new Encryption();
+                    program4.encryption();
+                    break;
                 case 100:
                     System.out.println("Close program");
                     trueFalse = false;
@@ -56,6 +63,7 @@ public class Exercises6 {
                 "1 - Count the characters - nie ukonczony \n" +
                 "2 - Find \n" +
                 "3 - Sum and save \n" +
+                "4 - Encryption \n" +
                 "100 - Close program");
     }
 }
