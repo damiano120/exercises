@@ -1,2 +1,2 @@
-Nowak	Tomasz	22
-Kowalski	Jan	40
+Nowak Tomasz 22
+Kowalski Jan 40

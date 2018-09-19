@@ -57,6 +57,20 @@ public class Exercises6 {
                     Pension program5 = new Pension();
                     program5.pension();
                     break;
+                case 6:
+                    System.out.println("\n" +
+                            "Table \n" +
+                            "");
+                    Table program6 = new Table();
+                    program6.table();
+                    break;
+                case 7:
+                    System.out.println("\n" +
+                            "Letter counter \n" +
+                            "");
+                    LetterCounter program7 = new LetterCounter();
+                    program7.count();
+                    break;
                 case 100:
                     System.out.println("Close program");
                     trueFalse = false;
@@ -72,6 +86,8 @@ public class Exercises6 {
                 "3 - Sum and save \n" +
                 "4 - Encryption \n" +
                 "5 - Pension \n" +
+                "6 - Table \n" +
+                "7 - Letter counter \n" +
                 "100 - Close program");
     }
 }
