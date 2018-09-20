@@ -37,8 +37,60 @@ y ********** 10312
 z 185
  */
 
-public class LetterCounter {
-    public void count(){
+import java.io.*;
+import java.net.*;
 
+public class LetterCounter {
+    public void count() throws Exception {
+        URL url = new URL("http://www.gutenberg.org/files/76/76-0.txt");
+//        Path path = Paths.get("src\exercises6\program7.txt");
+        BufferedReader bufferedReader = null;
+        try {
+//            bufferedReader = Files.newBufferedReader(path);
+            bufferedReader = new BufferedReader(new InputStreamReader(url.openStream()));
+            String line = null;
+            int lines = 0;
+            int[] counter = new int[26];
+            char[] letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+                    'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+            int sum = 0;
+
+//            POLICZ ILOSC
+            while ((line = bufferedReader.readLine()) != null) {
+                char[] tab = line.toCharArray();
+                for (char i : tab) {
+                    for (int j = 0; j < counter.length; j++) {
+                        char aa = 'a';
+                        int k = aa;
+                        k += j;
+                        char letter = (char) k;
+                        if (i == letter) {
+                            counter[j]++;
+                            sum++;
+                        }
+                    }
+                }
+            }
+//            PRZEDSTAW WYNIKI
+            for (int i = 0; i < letters.length; i++) {
+                System.out.print(letters[i] + " ");
+                int number = counter[i];
+                int k = 1;
+                for (int j = 0; j < number; j++) {
+                    if (k <= 50) {
+                        System.out.print("*");
+                        k++;
+                    }
+                }
+                System.out.println(" " + counter[i]);
+            }
+
+        } catch (FileNotFoundException exc) {
+            System.out.println("File error");
+        } finally {
+            if (bufferedReader != null) {
+                bufferedReader.close();
+            }
+        }
     }
 }

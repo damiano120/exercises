@@ -5,6 +5,5 @@
 <tr><td>67</td><td>1,77</td><td>21,39</td><td>"NIE"</td></tr>
 <tr><td>85</td><td>1,7</td><td>29,41</td><td>"TAK"</td></tr>
 <tr><td>100</td><td>1,92</td><td>27,13</td><td>"TAK"</td></tr>
-
 </table>
 </body></html>

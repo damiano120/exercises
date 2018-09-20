@@ -7,7 +7,7 @@ public class Exercises6 {
 
 //    Zajęcia 6 – pliki tekstowe
 
-    public void exercises6()throws IOException {
+    public void exercises6()throws Exception {
 
         Scanner scanner = new Scanner(System.in);
 
