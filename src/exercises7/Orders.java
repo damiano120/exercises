@@ -75,8 +75,10 @@ która wczyta z pliku o podanej nazwie zamówienie i zwróci je jako wynik.
 
          */
 
+import java.io.IOException;
+
 public class Orders {
-    public void orders(){
+    public void orders() throws IOException  {
 
         Item item1 = new Item("Chleb", 1, 3.5);
         System.out.println(item1);
@@ -88,12 +90,17 @@ public class Orders {
         System.out.println(item4);
         Item item5 = new Item("Lody", 24, 2);
         System.out.println(item5);
-        Order order = new Order(20);
+        Order order = new Order();
         order.addItem(item1);
         order.addItem(item2);
         order.addItem(item3);
         order.addItem(item4);
         order.addItem(item5);
+        System.out.println(order);
+        String fileNameOut = "src\\exercises7\\program1OrderOut.txt";
+        String fileNameIn = "src\\exercises7\\program1OrderIn.txt";
+        order.saveOrder(order, fileNameOut);
+        order.loadOrder(fileNameIn);
         System.out.println(order);
 
     }

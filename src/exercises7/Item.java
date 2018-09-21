@@ -1,6 +1,12 @@
 package exercises7;
 
-public class Item {
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class Item implements Serializable {
 
     private String name;
     private int amount;
@@ -58,7 +64,30 @@ public class Item {
         return valueWithDiscount;
     }
 
+    @Override
     public String toString(){
         return getName() + " " + getPrice() + "zl" + " " + getAmount() + "szt" + " " + calculateValue() + "zl";
+    }
+
+    @Override
+    public void saveOrder(Order order, String fileName) throws IOException {
+        Path path = Paths.get(fileName);
+        BufferedWriter bufferedWriter = null;
+        try {
+            bufferedWriter = Files.newBufferedWriter(path);
+            bufferedWriter.write(order.toString());
+            bufferedWriter.newLine();
+        } catch (IOException exc){
+            exc.printStackTrace();
+        } finally {
+            if (bufferedWriter != null){
+                bufferedWriter.close();
+            }
+        }
+    }
+
+    @Override
+    public Order loadOrder(String fileName) {
+        return null;
     }
 }

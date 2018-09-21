@@ -1,9 +1,15 @@
 package exercises7;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Order {
+public class Order implements Serializable {
 
     private ArrayList<Item> items = new ArrayList<>();
     private int amount;
@@ -47,6 +53,7 @@ public class Order {
         return value;
     }
 
+    @Override
     public String toString(){
         String order = null;
         for (int i=0; i<items.size(); i++){
@@ -59,5 +66,40 @@ public class Order {
         return "Zamowienie: \n" +
                 order + "\n" +
                 "Razem: " + calculateSum() + "zl";
+    }
+
+    @Override
+    public void saveOrder(Order order, String fileName) throws IOException {
+        Path path = Paths.get(fileName);
+        BufferedWriter bufferedWriter = null;
+        try {
+            bufferedWriter = Files.newBufferedWriter(path);
+                bufferedWriter.write(order.toString());
+                bufferedWriter.newLine();
+        } catch (IOException exc){
+            exc.printStackTrace();
+        } finally {
+            if (bufferedWriter != null){
+                bufferedWriter.close();
+            }
+        }
+    }
+
+    @Override
+    public Order loadOrder(String fileName) throws IOException {
+        Path path = Paths.get(fileName);
+        BufferedReader bufferedReader = null;
+        try {
+            bufferedReader = Files.newBufferedReader(path);
+            String line;
+//            while ()
+        } catch (IOException exc){
+            exc.printStackTrace();
+        } finally {
+            if (bufferedReader != null){
+                bufferedReader.close();
+            }
+        }
+        return null;
     }
 }

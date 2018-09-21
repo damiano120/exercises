@@ -2,10 +2,11 @@ package exercises7;
 
 //  Zajecia 7 - Objects
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Exercises7 {
-    public void exercises7(){
+    public void exercises7() throws IOException {
 
         Scanner scanner = new Scanner(System.in);
 
