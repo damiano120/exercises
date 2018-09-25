@@ -1,0 +1,7 @@
+Zamowienie: 
+Chleb 3.5zl 4szt 14.0zl
+Cukier 4.0zl 8szt 30.4zl
+Lizaki 1.0zl 16szt 14.4zl
+Lody 2.0zl 24szt 40.8zl
+
+Razem: 99.6zl
